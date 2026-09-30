@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from tensorflow.keras.utils import load_img, img_to_array
 
 # Load model
-model = tf.keras.models.load_model("waste_classifier (2).keras")
+model = tf.keras.models.load_model("old.keras")
 
 # IMPORTANT:
 # Use the exact order printed by train_ds.class_names
